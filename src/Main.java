@@ -41,6 +41,17 @@ public class Main {
             System.out.println("Lines are not equals using equals method");
         }
 
-
+        //CompareTo method
+        int compareValue=line2.compareTo(line1);
+        if(compareValue > 0)
+        {
+            System.out.println("Line 2 is greater than line 1");
+        } else if (compareValue < 0) {
+            System.out.println("Line2 is less than line 1");
+        }
+        else
+        {
+            System.out.println("Lines are equals");
+        }
     }
 }
